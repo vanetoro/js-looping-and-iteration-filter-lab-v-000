@@ -3,5 +3,5 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(driver_name){
-  return drivers.filter(function(name){return name == driver_name})
+  return drivers.filter(function(name){return name.toLowerCase() == driver_name.toLowerCAse()})
 }
