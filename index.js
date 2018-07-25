@@ -10,3 +10,8 @@ function findMatching(arr,driver_name){
 function fuzzyMatch(arr, driver_name){
     return arr.filter(function(name){return name[0] == driver_name[0]})
 }
+
+
+function matchName(){
+
+}
