@@ -2,7 +2,6 @@
 
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
-function findMatching(driver_name){
-  debugger
-  return drivers.filter(function(name){return name == driver_name})
+function findMatching(arr,driver_name){
+  return arr.filter(function(name){return name == driver_name})
 }
